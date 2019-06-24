@@ -1,0 +1,12 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.mainNav2{
+  display: inline-grid;
+  background-color: green;
+  padding-top: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
