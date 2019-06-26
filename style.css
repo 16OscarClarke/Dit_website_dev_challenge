@@ -1,12 +1,52 @@
-*{
-  padding: 0px;
-  margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul {
+    background: rgb(53, 52, 52);
+  }
+
+  nav li {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+
+  }
+
+  body {
+    background: green;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+a.hover{
+  color: black;
 }
-.mainNav2{
-  display: inline-grid;
-  background-color: green;
-  padding-top: 15px;
-  padding-left: 15px;
-  text-decoration: none;
-  padding-bottom: 15px;
-}
+  nav li:hover {
+    background: lightgrey;
+  }
+
+  section {
+    margin: 30px;
+  }
+
+  section li {
+    margin: 10px 30px;
+  }
+
+  .text {
+    background: lightgreen;
+    padding: 50px;
+  }
+
+  .text-block {
+    padding: 30px;
+    background: lightgreen;
+    margin: 20px 0px;
+  }
